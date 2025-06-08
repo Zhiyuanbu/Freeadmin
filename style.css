@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #161b22;
+  color: #fff;
+  min-height: 100vh;
+}
+
+header {
+  background: #23272d;
+  text-align: center;
+  padding: 2.5rem 1rem 2rem 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.4rem;
+  color: #00c3ff;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  margin-bottom: 1.6rem;
+}
+
+.play-btn {
+  display: inline-block;
+  background: linear-gradient(90deg, #00c3ff 0%, #0077ff 100%);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: bold;
+  padding: 0.75em 2em;
+  border-radius: 2em;
+  text-decoration: none;
+  transition: transform 0.1s, box-shadow 0.1s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.play-btn:hover {
+  transform: translateY(-2px) scale(1.04);
+  box-shadow: 0 6px 16px rgba(0,195,255,0.23);
+}
+
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  margin-top: 0;
+  color: #00c3ff;
+  font-size: 1.5rem;
+}
+
+ul {
+  padding-left: 1.4em;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+.commands code {
+  background: #222;
+  border-radius: 3px;
+  padding: 0.15em 0.4em;
+  color: #00ffd0;
+  font-size: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  background: #191e24;
+  color: #aaa;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+  main {
+    padding: 0 0.6rem;
+  }
+}
